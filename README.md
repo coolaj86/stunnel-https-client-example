@@ -83,3 +83,6 @@ TODO
 ====
 
 Use the `CApath` option with a download of Mozilla's most recent root certs instead of including a specific root cert.
+
+Before I was trying to use `socat`, but it doesn't support Server Name Indication (SNI) and it wasn't correctly
+verifying the x.509 (TLS/SSL) certs, even with the cafile option.
